@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="init_activity_title">Seeviews</string>
+    <string name="init_header_top">Received a code from your hotel?</string>
+    <string name="init_header_bottom">Enter the code and start reviewing:</string>
+    <string name="init_error">Unable to connect. Please check your connection and try again.</string>
+</resources>

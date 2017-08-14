@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="header_height">240dp</dimen>
+    <dimen name="header_padding">22dp</dimen>
+    <dimen name="header_text_size">30sp</dimen>
+
+    <dimen name="init_horizontal_margin">16dp</dimen>
+
+    <dimen name="home_btn_padding">15dp</dimen>
+    <dimen name="home_toolbartext">15sp</dimen>
+    <dimen name="home_devider_toolbar">20sp</dimen>
+
+    <dimen name="question_slider_icon_size">40dp</dimen>
+    <dimen name="question_slider_margin_horizontal">64dp</dimen>
+    <dimen name="question_slider_margin_spacer_horizontal">8dp</dimen>
+    <dimen name="question_slider_margin_plus_horizontal">72dp</dimen>
+    <dimen name="question_photo_preview_height">0dp</dimen>
+
+    <dimen name="question_dialog_save_width">160dp</dimen>
+    <dimen name="question_dialog_save_height">140dp</dimen>
+
+    <dimen name="camera_record_size">64dp</dimen>
+</resources>

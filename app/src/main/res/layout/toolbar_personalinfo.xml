@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_personalinfo"
+    android:layout_width="match_parent"
+    android:background="#6ADD7E"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_logo">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/backbutton">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/home_toolbartext"
+        android:text="BACK"
+        android:layout_marginLeft="2dp"
+        android:layout_gravity="left|center_vertical">
+    </TextView>
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seeviews.ui.review.ReviewActivityFragment"
+    tools:showIn="@layout/activity_review">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/review_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/review_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/review_empty"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:visibility="gone" />
+
+
+</FrameLayout>

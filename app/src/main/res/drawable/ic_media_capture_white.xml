@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+    <item android:drawable="@drawable/ic_media_capture_white_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/ic_media_capture_white_idle" />
+</selector>

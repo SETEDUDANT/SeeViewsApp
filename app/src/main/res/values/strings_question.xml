@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_media_label_new">Click here to add a video or photo to your answer.</string>
+    <string name="question_media_label_edit">Click here to change the video or photo.</string>
+    <string name="question_action_save">Save Answer</string>
+    <string name="question_footer">Do you have a question? </string>
+    <string name="question_footer_link">Click here.</string>
+    <string name="question_contact_email_footer"><b>-------------------------------</b>\n<b>Additional information</b>\nUnique code:</string>
+    <string name="question_contact_email_chooser">Send Email</string>
+    <string name="question_dialog_sure_title">Unsaved answer</string>
+    <string name="question_dialog_sure_content">Are you sure you want to discard your answer?</string>
+    <string name="question_dialog_sure_pos">Save answer</string>
+    <string name="question_dialog_sure_neu">Cancel</string>
+    <string name="question_dialog_sure_neg">Discard answer</string>
+    <string name="question_media_video">Record video</string>
+    <string name="question_media_photo">Take photo</string>
+    <string name="question_media_gallery">From gallery</string>
+    <string name="question_bottom_media">Add video or photo</string>
+    <string name="question_media_label_retry">Retry</string>
+    <string name="question_media_label_confirm_video">Use video</string>
+    <string name="question_media_label_confirm_photo">Use photo</string>
+    <string name="question_comment_hint">Add comment</string>
+    <string name="question_media_clear_title">Clear media</string>
+    <string name="question_media_clear_content">Are you sure you want to remove your video or photo from this answer?</string>
+    <string name="question_media_clear_pos">Yes</string>
+    <string name="question_media_clear_neg">Cancel</string>
+    <string name="question_action_save_disabled">Answer saved</string>
+    <string name="question_dialog_save_title">Saving…</string>
+
+    <string name="question_snack_save_completed">Answer saved successfully</string>
+    <string name="question_snack_save_failed">Failed to save your answer. Please try again later</string>
+</resources>

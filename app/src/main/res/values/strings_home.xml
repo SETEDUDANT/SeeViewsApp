@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_header_title">WELCOME TO</string>
+    <string name="home_header_fallback_name">This Hotel</string>
+    <string name="home_review_btn_new">MAKE A NEW SEEVIEW!</string>
+    <string name="home_review_btn_continue">CONTINUE YOUR SEEVIEW!</string>
+    <string name="home_review_btn_completed">Change your review</string>
+    <string name="home_label_reviews">OUR LATEST SEEVIEWS:</string>
+    <string name="home_empty">There are no other reviews yet.\nCreate your own!</string>
+    <string name="home_action_gift">Free Gifts</string>
+    <string name="home_action_logout">Logout</string>
+    <string name="home_logout_title">Logout</string>
+    <string name="home_logout_message">Are you sure you want to logout?</string>
+    <string name="home_logout_pos">Logout</string>
+    <string name="home_logout_neg">Cancel</string>
+    <string name="home_my_details_toolbartext">MY_DETAILS</string>
+    <string name="home_free_gifts_toolbartext">FREE GIFTS</string>
+
+
+</resources>

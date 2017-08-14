@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#6ADD7E"
+    android:layout_height="40dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right">
+        <TextView
+            android:id="@+id/my_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/home_toolbartext"
+            android:textColor="@color/home_toolbartext"
+            android:text="@string/home_my_details_toolbartext"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/home_toolbartext"
+            android:textStyle="bold"
+            android:textSize="@dimen/home_devider_toolbar"
+            android:text="|"/>
+
+        <TextView
+            android:id="@+id/free_gifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/home_toolbartext"
+            android:textColor="@color/home_toolbartext"
+            android:text="@string/home_free_gifts_toolbartext">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

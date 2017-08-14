@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gift_empty_title">You don\'t have any free gifts</string>
+    <string name="gift_empty_subtitle">You have to answer all questions\nbefore you\'ll receive a free gift.</string>
+    <string name="gift_empty_subtitle_empty">Please try again later</string>
+    <!--<string name="gift_congratulations">Thank you for making a Seeview! Here is a 15% discount that you can apply at your next booking.</string>-->
+    <!--<string name="gift_congratulations_header">15% Discount at your next visit!</string>-->
+</resources>

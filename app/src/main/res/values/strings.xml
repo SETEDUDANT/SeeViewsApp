@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Seeviews</string>
+
+    <string name="api_client_id">4</string>
+    <string name="api_client_secret">YqViIdH7pFWuOYp1I8whU5BJhibIBMSL1cCs8FCT</string>
+
+    <string name="url_base">https://seeviews.com/</string>
+    <string name="urWl_image">https://seeviews.com/api/v1/file/</string>
+    <!--<string name="url_base">https://staging.seeviews.com/</string>-->
+    <!--<string name="url_image">https://staging.seeviews.com/api/v1/file/</string>-->
+</resources>

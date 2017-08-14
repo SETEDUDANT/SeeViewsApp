@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.afollestad.easyvideoplayer.EasyVideoPlayer
+        android:id="@+id/playbackView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:evp_hideControlsOnPlay="true" />
+
+    <LinearLayout
+        android:id="@+id/preview_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blurTint"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:paddingTop="32dp">
+
+        <TextView
+            android:id="@+id/preview_question"
+            style="@style/HeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="2dp"
+            android:paddingStart="2dp"
+            tools:text="How was the check-in?" />
+
+        <EditText
+            android:id="@+id/preview_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question_comment_hint"
+            android:inputType="textCapSentences|textMultiLine|textAutoComplete" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/retry"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:padding="@dimen/mcam_content_inset_less"
+                android:scaleType="fitXY"
+                android:text="@string/mcam_retry"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="@dimen/mcam_regular_title_fontsize"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/confirm"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:padding="@dimen/mcam_content_inset_less"
+                android:scaleType="fitXY"
+                android:text="@string/mcam_use_video"
+                android:textColor="@color/colorPrimary" />
+
+        </FrameLayout>
+    </LinearLayout>
+    <!--<android.support.design.widget.AppBarLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+    <FrameLayout
+        android:id="@+id/preview_toolbar_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blurTint">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/preview_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <ImageView
+            android:id="@+id/preview_toolbar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_logo"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/preview_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/preview_controls"
+        android:layout_below="@id/preview_toolbar_wrapper"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_play" />
+
+            <TextView
+                android:id="@+id/preview_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+</RelativeLayout>

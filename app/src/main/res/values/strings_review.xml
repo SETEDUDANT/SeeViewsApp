@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="review_empty">There are no questions at this time.</string>
+    <string name="review_action_gift">Free Gifts</string>
+    <string name="review_action_reset">Reset</string>
+
+    <string name="review_dialog_reset_title">Reset answer</string>
+    <string name="review_dialog_reset_content">Are you sure you want to reset your answer? This can not be undone.</string>
+    <string name="review_dialog_reset_pos">Yes</string>
+    <string name="review_dialog_reset_neg">Cancel</string>
+</resources>

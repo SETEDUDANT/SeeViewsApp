@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seeviews.ui.home.HomeActivityFragment"
+    tools:showIn="@layout/activity_home">
+
+>
+    <!--<include -->
+        <!--android:id="@+id/maintoolbar"-->
+        <!--layout="@layout/main_toolbar"/> -->
+
+    <include
+        android:id="@+id/toolbar_homee"
+        layout="@layout/toolbar_home" />
+
+    <RelativeLayout
+        android:id="@+id/home_header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--android:background="@android:color/black"-->
+
+
+        <ImageView
+            android:id="@+id/home_header_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/beginscherm_image" />
+        <!-- android:alpha="0.4" -->
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/header_padding"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/home_header_title"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/home_header_name"
+                style="@style/HeaderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_header_fallback_name"
+                tools:text="The Robey Hotel" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="83">
+
+        <LinearLayout
+            android:id="@+id/home_review_btn_layout"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#EE4A17"
+            android:padding="@dimen/home_btn_padding"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/home_review_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fontFamily="ClanOT-Bold"
+                android:text="@string/home_review_btn_new"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/mainbutton_arrow"
+                />
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/home_reviews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/home_review_btn_layout"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/home_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingBottom="20dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="43dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/home_label_reviews"
+                android:textColor="#00D261"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/home_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/home_review_btn"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/home_empty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/home_empty"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

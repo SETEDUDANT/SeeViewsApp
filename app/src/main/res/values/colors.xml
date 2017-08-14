@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CD964</color>
+    <color name="colorPrimaryDark">#44c35a</color>
+    <color name="colorAccent">#4CD964</color>
+
+    <color name="blurTint">#68000000</color>
+    <color name="status">#01000000</color>
+    <color name="homeBackground">#FAFAFA</color>
+    <color name="homeReviewImageFallback">#e5e5e5</color>
+
+    <color name="ratingBad">#F44336</color>
+    <color name="ratingNeutral">#FFC107</color>
+    <color name="ratingGood">#4CD964</color>
+    <color name="ratingIndicator">#BDBDBD</color>
+
+    <color name="rating1">#F44336</color>
+    <color name="rating2">#fc6028</color>
+    <color name="rating3">#ff8915</color>
+    <color name="rating4">#ffb007</color>
+    <color name="rating5">#f7c60a</color>
+    <color name="rating6">#dacf18</color>
+    <color name="rating7">#b3d42c</color>
+    <color name="rating8">#89d642</color>
+    <color name="rating9">#65d757</color>
+    <color name="rating10">#4CD964</color>
+
+    <color name="questionTitleDark">@android:color/black</color>
+    <color name="questionCommentDark">#969696</color>
+    <color name="questionTitleLight">#FAFAFA</color>
+    <color name="questionCommentLight">#D2D0D0</color>
+    <color name="questionNumber">#F8C1BA</color>
+    <color name="questionSeparator">#e5e5e5</color>
+
+    <color name="questionTitleLight1">#FAFAFA</color>
+    <color name="questionTitleDark1">#01DA58</color>
+    <color name="questionCommentLight1">#D2D0D0</color>
+    <color name="questionCommentDark1">#969696</color>
+
+    <color name="home_toolbartext">#ffffff</color>
+
+    <color name="giftEmpty">#757575</color>
+    <color name="dialog_btn">#808080</color>
+    <color name="questionBtnTine">#80ffffff</color>
+    <color name="colorBtnDisabledText">#808080</color>
+</resources>
